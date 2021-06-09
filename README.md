@@ -34,7 +34,7 @@ Iris Dataset:
 
 GNB KNN
 
-![](RackMultipart20210609-4-1jopvtz_html_1d3a9497dd5d6634.png) ![](RackMultipart20210609-4-1jopvtz_html_e48503bc0e3d02d7.png)
+![](picture1.png) ![](picture2.png)
 
 SVM Adaboost
 
