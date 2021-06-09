@@ -78,20 +78,22 @@ Interestingly, we observe that GNB yielded perfect results on the test set, and 
 
 ### Diabetes Dataset:
 
-GNB KNN
+#### GNB 
+![](Picture13.png)
 
-![](RackMultipart20210609-4-1jopvtz_html_8944770e74d8634a.png) ![](RackMultipart20210609-4-1jopvtz_html_8ea5e3744138c84d.png)
+#### KNN
+![](Picture14.png)
 
-SVM Adaboost
+#### SVM 
+![](Picture15.png)
 
-![](RackMultipart20210609-4-1jopvtz_html_d9bec467e25011b9.png) ![](RackMultipart20210609-4-1jopvtz_html_c24c65e4ecb1a532.png)
+#### Adaboost
+![](Picture16.png)
 
-LDA
+#### LDA
+![](Picture17.png)
 
-![](RackMultipart20210609-4-1jopvtz_html_d03702789aa07d1e.png)
-
-Comparison
-
-![](RackMultipart20210609-4-1jopvtz_html_a8aae3e6a8c0c437.png)
+#### Comparison
+![](Picture18.png)
 
 As expected with such complex decision boundary (even though it&#39;s a binary classification) the accuracies obtained are much lower than previous datasets. Here is where the benefit for SVMs with RBF kernels comes to play, as it comes with the best metrics results for this problem. Keep in mind that the hyper-parameters were fixed, adjusting them for this problem will surely yield better results. Again, KNN were the worst and probably shouldn&#39;t be used for real life complex problems.
