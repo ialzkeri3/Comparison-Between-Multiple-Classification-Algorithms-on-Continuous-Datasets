@@ -30,49 +30,53 @@ Here are the models we used, a star on the name denotes that we implemented it f
 
 ## **Simulation Results**
 
-Iris Dataset:
+### Iris Dataset:
 
-GNB KNN
+#### GNB 
+![](Picture1.png)
 
-![](Picture1.png) ![](Picture2.png)
+#### KNN
+![](Picture2.png)
 
-SVM Adaboost
+#### SVM 
+![](Picture3.png)
 
-![](RackMultipart20210609-4-1jopvtz_html_ddd1e008c742ad1d.png) ![](RackMultipart20210609-4-1jopvtz_html_17132a6c126cc81f.png)
+#### Adaboost
+![](Picture4.png)
 
-LDA
+#### LDA
+![](Picture5.png)
 
-![](RackMultipart20210609-4-1jopvtz_html_e3d4e9c001cbc584.png)
-
-Comparison
-
-![](RackMultipart20210609-4-1jopvtz_html_f9b7484610d3f43b.png)
+#### Comparison
+![](Picture6.png)
 
 We can observe that all of the models used give very good results, this is due to the nature oof the classification and how the decision boundaries are non-complex.
 
 We denote that KNN, the lesser intelligent model scored the worst result on all metrics as expected. Also, it looks like our problem really made use of the assumption of normal distribution as can be seen in the excellent results we obtained from GNB and LDA
 
-Wine Dataset:
+### Wine Dataset:
 
-GNB KNN
+#### GNB 
+![](Picture7.png)
 
-![](RackMultipart20210609-4-1jopvtz_html_94497a8df6f075da.png) ![](RackMultipart20210609-4-1jopvtz_html_f7fad7aeb4474a3d.png)
+#### KNN
+![](Picture8.png)
 
-SVM Adaboost
+#### SVM 
+![](Picture9.png)
 
-![](RackMultipart20210609-4-1jopvtz_html_ed5328218694c69c.png) ![](RackMultipart20210609-4-1jopvtz_html_84de7865ca98b45.png)
+#### Adaboost
+![](Picture10.png)
 
-LDA
+#### LDA
+![](Picture11.png)
 
-![](RackMultipart20210609-4-1jopvtz_html_d0075e5bc16a6fa6.png)
-
-Comparison
-
-![](RackMultipart20210609-4-1jopvtz_html_ec79e5c8e5d0c634.png)
+#### Comparison
+![](Picture12.png)
 
 Interestingly, we observe that GNB yielded perfect results on the test set, and Adaboost, with 250 estimators overfit the data and got the lowest results, even lower than KNN. Note that all hyper-parameters were fixed for all datasets used.
 
-Diabetes Dataset:
+### Diabetes Dataset:
 
 GNB KNN
 
